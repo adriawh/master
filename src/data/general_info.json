@@ -1,0 +1,32 @@
+{
+  "information": [
+    {
+      "title": "Assistant",
+      "description": "Passengers travelling with assistant must provide valid assistant ID. Passenger travel on senior discount, while assistant(s) travel for free. Please remember your senior/discount certificate."
+    },
+    {
+      "title": "Bike and luggage",
+      "description": "When travelling with a bicycle, electric bicycle or large scooters, you buy a child ticket on buses and trams. However, the following are free to bring along; small or combined electric scooters and bicycles, skis and special bicycles for people with disabilities."
+    },
+    {
+      "title": "Student ID",
+      "description": "Student discounts applies to high school students and students up to 34 years. You must have a valid student ID from your school in Norway that shows the current semester, valid Norwegian student ID and term card from higher education, or ISIC card. <br><br>A valid student ID must have the name, date of birth, picture of the student, place of study and show what semester it is valid for. Adult foreigners up to and including 34 years who undergo the course 'Norwegian with social knowledge' or the introduction program for refugees, receive student discounts. <br><br>Remember that you must be able to show that you are entitled to a discount upon request. Without valid proof of discount, you will receive an additional fee in a ticket inspection."
+    },
+    {
+      "title": "Dog",
+      "description": "Dogs travel for free on buses, trams and boats"
+    },
+    {
+      "title": "Family discount boat",
+      "description": "The discount applies when one or to adults that are registered partners/live together/are married travel together with their own children under the age of 20. Pay full price for the first adult and get a 50% discount on the remaining tickets. The offer is valid all days and does not include a transfer to bus. The ticket is purchased on board."
+    },
+    {
+      "title": "Family discount weekend",
+      "description": "On Saturdays, Sundays, and public holidays (excluding May 17th), individuals over 20 years old with a valid ticket in the adult, senior, or student categories can bring up to four children under 18 years old for free when traveling by bus or tram within one zone."
+    },
+    {
+      "title": "Stroller",
+      "description": "Strollers are free on buses, trams and boats if there is room on board."
+    }
+  ]
+}

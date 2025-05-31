@@ -1,0 +1,26 @@
+[
+  {
+    "name": "adult",
+    "description": "20 to 66 years."
+  },
+  {
+    "name": "child",
+    "description": "6 to 19 years. For bike on bus/tram, buy a single ticket."
+  },
+  {
+    "name": "senior",
+    "description": "Over 67 or with concessionary card."
+  },
+  {
+    "name": "military",
+    "description": "Description of the military category"
+  },
+  {
+    "name": "student",
+    "description": "Students under 35 years of age with a valid student ID."
+  },
+  {
+    "name": "youth",
+    "description": "Travellers from 16 up to and including 19 years, and those under 16 who can show that they are in high school. Remember that you must be able to show that you are entitles to a discount upon request."
+  }
+]

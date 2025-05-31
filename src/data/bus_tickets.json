@@ -1,0 +1,455 @@
+{
+  "tickets": [
+    {
+      "names": {
+        "nob": "Enkeltbillett",
+        "eng": "Single ticket"
+      },
+      "description": "* Valid on bus (also valid on tram/train in zone A)\n* Not valid on the nightbus and nighttram\n* Valid for the entire journey if the ticket is valid when boarding\n* Cannot be refunded\n\n[Conditions and zones](https://www.atb.no/en/single-ticket/)",
+      "prices": [
+        {
+          "zones": 1,
+          "price": {
+            "adult": 45,
+            "child": 22,
+            "senior": 22,
+            "military": 22,
+            "student": 45
+          }
+        },
+        {
+          "zones": 2,
+          "price": {
+            "adult": 90,
+            "child": 45,
+            "senior": 45,
+            "military": 45,
+            "student": 90
+          }
+        },
+        {
+          "zones": 3,
+          "price": {
+            "adult": 135,
+            "child": 68,
+            "senior": 68,
+            "military": 68,
+            "student": 90
+          }
+        },
+        {
+          "zones": 4,
+          "price": {
+            "adult": 180,
+            "child": 90,
+            "senior": 90,
+            "military": 90,
+            "student": 90
+          }
+        },
+        {
+          "zones": 5,
+          "price": {
+            "adult": 225,
+            "child": 113,
+            "senior": 113,
+            "military": 113,
+            "student": 113
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "nob": "Natt 1",
+        "eng": "Night 1"
+      },
+      "description": "* Can be purchased between 00:30-04:00 night on Saturday and Sunday\n* Valid for night buses 101-116, 4101 and night tram\n* Valid for a single trip, but does not provide transfers\n* Valid for the entire journey if the ticket is valid when boarding\n* Cannot be refunded\n\n[Conditions and zones](https://www.atb.no/en/night-bus/)",
+      "prices": [
+        {
+          "price": {
+            "adult": 120
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "eng": "24-hour ticket",
+        "nob": "24-timersbillett"
+      },
+      "description": "* Valid on bus (also valid on tram/train in zone A)\n* Not valid on nightbus and nighttram\n* Valid for the entire journey if the ticket is valid when boarding\n* Cannot be refunded\n\n [Conditions and zones](https://www.atb.no/en/24hour-ticket/)",
+      "prices": [
+        {
+          "zones": 1,
+          "price": {
+            "adult": 135,
+            "child": 66,
+            "senior": 66
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "nob": "7-dagersbillett",
+        "eng": "7-day ticket"
+      },
+      "description": "* Valid on bus (also valid on tram/train in zone A)\n* Valid on nightbus and nighttram except for adult category\n* Valid for an unlimited number of trips in selected zones\n* Valid for the entire journey if the ticket is valid when boarding\n\n [Conditions and zones](https://www.atb.no/en/7day-ticket/)",
+      "included_services": [
+        "The ticket includes free use of of city bikes from Tronehim City Bike.",
+        "The ticket includes 2 hours free use of rental cars from Hyre each month."
+      ],
+      "prices": [
+        {
+          "zones": 1,
+          "price": {
+            "adult": 315,
+            "child": 130,
+            "senior": 130
+          }
+        },
+        {
+          "zones": 2,
+          "price": {
+            "adult": 630,
+            "child": 255,
+            "senior": 255
+          }
+        },
+        {
+          "zones": 3,
+          "price": {
+            "adult": 945,
+            "child": 380,
+            "senior": 380
+          }
+        },
+        {
+          "zones": 4,
+          "price": {
+            "adult": 1260,
+            "child": 505,
+            "senior": 505
+          }
+        },
+        {
+          "zones": 5,
+          "price": {
+            "adult": 1575,
+            "child": 630,
+            "senior": 630
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "eng": "30-day ticket",
+        "nob": "30-dagersbillett"
+      },
+      "description": "* Valid on bus (also valid on tram/train in zone A)\n* Valid on nightbus and nighttram except for adult category\n* Valid for an unlimited number of trips in selected zones\n* Valid for the entire journey if the ticket is valid when boarding\n\n [Conditions and zones](https://www.atb.no/en/30day-ticket/)",
+      "included_services": [
+        "The ticket includes free use of of city bikes from Tronehim City Bike.",
+        "The ticket includes 2 hours free use of rental cars from Hyre each month."
+      ],
+      "prices": [
+        {
+          "zones": 1,
+          "price": {
+            "adult": 926,
+            "child": 370,
+            "senior": 370,
+            "student": 555
+          }
+        },
+        {
+          "zones": 2,
+          "price": {
+            "adult": 1230,
+            "child": 495,
+            "senior": 495,
+            "student": 740
+          }
+        },
+        {
+          "zones": 3,
+          "price": {
+            "adult": 1544,
+            "child": 620,
+            "senior": 620,
+            "student": 930
+          }
+        },
+        {
+          "zones": 4,
+          "price": {
+            "adult": 1858,
+            "child": 745,
+            "senior": 745,
+            "student": 1120
+          }
+        },
+        {
+          "zones": 5,
+          "price": {
+            "adult": 2172,
+            "child": 879,
+            "senior": 879,
+            "student": 1310
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "eng": "60-day ticket",
+        "nob": "60-dagersbillett"
+      },
+      "description": "* Valid on bus (also valid on tram/train in zone A)\n* Valid on nightbus and nighttram except for adult category\n* Valid for an unlimited number of trips in selected zones\n* Valid for the entire journey if the ticket is valid when boarding\n\n [Conditions and zones](https://www.atb.no/en/fares/60-day-ticket/)",
+      "included_services": [
+        "The ticket includes free use of of city bikes from Tronehim City Bike.",
+        "The ticket includes 2 hours free use of rental cars from Hyre each month."
+      ],
+      "prices": [
+        {
+          "zones": 1,
+          "price": {
+            "adult": 1852,
+            "child": 740,
+            "senior": 740,
+            "student": 1110
+          }
+        },
+        {
+          "zones": 2,
+          "price": {
+            "adult": 2460,
+            "child": 985,
+            "senior": 985,
+            "student": 1480
+          }
+        },
+        {
+          "zones": 3,
+          "price": {
+            "adult": 3088,
+            "child": 1240,
+            "senior": 1240,
+            "student": 1855
+          }
+        },
+        {
+          "zones": 4,
+          "price": {
+            "adult": 3716,
+            "child": 1490,
+            "senior": 1490,
+            "student": 2230
+          }
+        },
+        {
+          "zones": 5,
+          "price": {
+            "adult": 4344,
+            "child": 1740,
+            "senior": 1740,
+            "student": 2610
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "eng": "90-day ticket",
+        "nob": "90-dagersbillett"
+      },
+      "description": "* Valid on bus (also valid on tram/train in zone A)\n* Valid on nightbus and nighttram except for adult category\n* Valid for an unlimited number of trips in selected zones\n* Valid for the entire journey if the ticket is valid when boarding\n\n [Conditions and zones](https://www.atb.no/en/fares/90-day-ticket/)",
+      "included_services": [
+        "The ticket includes free use of of city bikes from Tronehim City Bike.",
+        "The ticket includes 2 hours free use of rental cars from Hyre each month."
+      ],
+      "prices": [
+        {
+          "zones": 1,
+          "price": {
+            "adult": 2778,
+            "child": 1110,
+            "senior": 1110,
+            "student": 1665
+          }
+        },
+        {
+          "zones": 2,
+          "price": {
+            "adult": 3690,
+            "child": 1480,
+            "senior": 1480,
+            "student": 2220
+          }
+        },
+        {
+          "zones": 3,
+          "price": {
+            "adult": 4632,
+            "child": 1855,
+            "senior": 1855,
+            "student": 2780
+          }
+        },
+        {
+          "zones": 4,
+          "price": {
+            "adult": 5574,
+            "child": 2230,
+            "senior": 2230,
+            "student": 3345
+          }
+        },
+        {
+          "zones": 5,
+          "price": {
+            "adult": 6516,
+            "child": 2610,
+            "senior": 2610,
+            "student": 3910
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "eng": "180-day ticket",
+        "nob": "180-dagersbillett"
+      },
+      "description": "* Valid on bus (also valid on tram/train in zone A)\n* Valid on nightbus and nighttram except for adult category\n* Valid for an unlimited number of trips in selected zones\n* Valid for the entire journey if the ticket is valid when boarding\n\n [Conditions and zones](https://www.atb.no/en/180day-ticket/)",
+      "included_services": [
+        "The ticket includes free use of of city bikes from Tronehim City Bike.",
+        "The ticket includes 2 hours free use of rental cars from Hyre each month."
+      ],
+      "prices": [
+        {
+          "zones": 1,
+          "price": {
+            "adult": 4630,
+            "child": 1850,
+            "senior": 1850,
+            "student": 2775
+          }
+        },
+        {
+          "zones": 2,
+          "price": {
+            "adult": 6150,
+            "child": 2475,
+            "senior": 2475,
+            "student": 3700
+          }
+        },
+        {
+          "zones": 3,
+          "price": {
+            "adult": 7720,
+            "child": 3100,
+            "senior": 3100,
+            "student": 4650
+          }
+        },
+        {
+          "zones": 4,
+          "price": {
+            "adult": 9290,
+            "child": 3725,
+            "senior": 3725,
+            "student": 5600
+          }
+        },
+        {
+          "zones": 5,
+          "price": {
+            "adult": 10860,
+            "child": 4350,
+            "senior": 4350,
+            "student": 6550
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "nob": "Klippekort buss",
+        "eng": "Carnet bus"
+      },
+      "description": "* Valid on bus (also valid on tram/train in zone A)\n* Not valid on nightbus and nighttram\n* Only one ticket can be activated at a time\n* Valid for the entire journey if the ticket is valid when boarding\n\n [Conditions and zones](https://www.atb.no/en/single-ticket/)",
+      "prices": [
+        {
+          "zones": 1,
+          "price": {
+            "adult": 450,
+            "child": 220,
+            "senior": 220,
+            "student": 450
+          }
+        },
+        {
+          "zones": 2,
+          "price": {
+            "adult": 900,
+            "child": 450,
+            "senior": 450,
+            "military": 450,
+            "student": 900
+          }
+        },
+        {
+          "zones": 3,
+          "price": {
+            "adult": 1350,
+            "child": 680,
+            "senior": 680,
+            "military": 680,
+            "student": 900
+          }
+        },
+        {
+          "zones": 4,
+          "price": {
+            "adult": 1800,
+            "child": 900,
+            "senior": 900,
+            "military": 900,
+            "student": 900
+          }
+        },
+        {
+          "zones": 5,
+          "price": {
+            "adult": 2250,
+            "child": 1130,
+            "senior": 1130,
+            "military": 1130,
+            "student": 1130
+          }
+        }
+      ]
+    },
+    {
+      "names": {
+        "nob": "Ungdomsbillett",
+        "eng": "Youth ticket"
+      },
+      "description": "* Applies to travellers from 16 to 19 years old inclusive\n* Valid on bus and express boat in Trøndelag county (also applies to tram/train in zone A)\n* Valid on nightbus and nighttram\n* Valid for the entire journey if the ticket is valid when boarding\n\n[Conditions and zones](https://www.atb.no/en/youth-ticket/)",
+      "included_services": [
+        "The ticket includes free use of of city bikes from Tronehim City Bike.",
+        "The ticket includes 2 hours free use of rental cars from Hyre each month."
+      ],
+      "prices": [
+        {
+          "price": {
+            "youth": 555
+          }
+        }
+      ]
+    }
+  ]
+}

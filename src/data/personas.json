@@ -1,0 +1,267 @@
+[
+  {
+    "persona_id": "casual_traveler",
+    "expected_ticket": {
+      "name": "Single ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-04-20",
+    "long_prompt": "I am 37 years old and usually cycle, but sometimes I need to take the bus in Trondheim when the weather is really bad. I travel within 1 zone. What’s the best ticket for me?",
+    "long_prompt_no": "Jeg er 37 år gammel og sykler vanligvis, men noen ganger må jeg ta bussen i Trondheim når været er veldig dårlig. Jeg reiser innenfor 1 sone. Hva er den beste billetten for meg?"
+  },
+  {
+    "persona_id": "visitor_day_trip",
+    "expected_ticket": {
+      "name": "Single ticket",
+      "category": "adult",
+      "number_of_zones": 2
+    },
+    "date": "2025-05-10",
+    "long_prompt": "I am 29 years old and live outside Trondheim. I visit the city once or twice a month and travel within 2 zones. I only need a ticket for occasional trips. What should I buy?",
+    "long_prompt_no": "Jeg er 29 år gammel og bor utenfor Trondheim. Jeg besøker byen en eller to ganger i måneden og reiser innenfor 2 soner. Jeg trenger bare en billett for sporadiske turer. Hva bør jeg kjøpe?"
+  },
+  {
+    "persona_id": "casual_traveler_student",
+    "expected_ticket": {
+      "name": "180-day ticket",
+      "category": "student",
+      "number_of_zones": 1
+    },
+    "date": "2025-02-05",
+    "long_prompt": "I am 20 years old and study in Trondheim. I live right next to campus, so I walk to my classes. I do however use the bus when going to the city centre probably one day a week, which is still in the same zone. Sometimes I use the night bus to get home after parties, but that is probably like once a month. What should I buy?",
+    "long_prompt_no": "Jeg er 20 år gammel og studerer i Trondheim. Jeg bor rett ved campus, så jeg går til forelesninger. Men jeg tar bussen til sentrum omtrent én gang i uka, fortsatt innenfor samme sone. Av og til tar jeg nattbussen hjem etter fest, kanskje en gang i måneden. Hva bør jeg kjøpe?"
+  },
+  {
+    "persona_id": "short_term_tourist",
+    "expected_ticket": {
+      "name": "24-hour ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-04-17",
+    "long_prompt": "I am 45 years old and visiting Trondheim for just one day. I want to see as much as possible and will be using the bus frequently within 1 zone. What ticket should I get?",
+    "long_prompt_no": "Jeg er 45 år gammel og besøker Trondheim for bare én dag. Jeg vil se så mye som mulig og kommer til å bruke bussen ofte innenfor 1 sone. Hvilken billett bør jeg få?"
+  },
+  {
+    "persona_id": "conference_attendee",
+    "expected_ticket": {
+      "name": "24-hour ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-04-25",
+    "long_prompt": "I am 50 years old and in Trondheim for a one day conference. I need a ticket that covers my transport between the hotel, venue, and some evening events within 1 zone. What should I get?",
+    "long_prompt_no": "Jeg er 50 år gammel og er i Trondheim for en en dags konferanse. Jeg trenger en billett som dekker transporten mellom hotellet, konferansestedet og noen kveldsarrangementer innenfor 1 sone. Hva bør jeg kjøpe?"
+  },
+  {
+    "persona_id": "short_term_worker",
+    "expected_ticket": {
+      "name": "7-day ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-04-13",
+    "long_prompt": "I am 34 years old and working in Trondheim for a week. I need a ticket that allows me to travel freely within the city during my stay. I travel within 1 zone. What’s the best ticket?",
+    "long_prompt_no": "Jeg er 34 år gammel og jobber i Trondheim i en uke. Jeg trenger en billett som lar meg reise fritt i byen under oppholdet. Jeg reiser innenfor 1 sone. Hva er den beste billetten?"
+  },
+  {
+    "persona_id": "4_day_traveler",
+    "expected_ticket": {
+      "name": "7-day ticket",
+      "category": "adult",
+      "number_of_zones": 2
+    },
+    "date": "2025-04-17",
+    "long_prompt": "I am 28 years old and visiting Trondheim for 4 days for an event. I am staying at my brothers, so I plan to travel to and from the event every day within 2 zones during my stay. What’s the best ticket for me?",
+    "long_prompt_no": "Jeg er 28 år gammel og besøker Trondheim i 4 dager for et arrangement. Jeg bor hos broren min, så jeg planlegger å reise til og fra arrangementet hver dag innenfor 2 soner under oppholdet. Hva er den beste billetten for meg?"
+  },
+  {
+    "persona_id": "fadderuke_student",
+    "expected_ticket": {
+      "name": "30-day ticket",
+      "category": "student",
+      "number_of_zones": 1
+    },
+    "date": "2024-08-18",
+    "long_prompt": "I am 20 years old and a student in Trondheim. I live right next to campus, so I don’t normally need the bus. However, I’ve been using the bus, as well as the night bus, a lot during fadderuke and need a ticket for the remaining week. I travel within 1 zone. What’s the best ticket?",
+    "long_prompt_no": "Jeg er 20 år gammel og student i Trondheim. Jeg bor rett ved campus, så jeg trenger vanligvis ikke bussen. Men jeg har brukt bussen, og nattbussen, mye under fadderuka og trenger en billett for den resterende uka. Jeg reiser innenfor 1 sone. Hva er den beste billetten?"
+  },
+  {
+    "persona_id": "daily_commuter",
+    "expected_ticket": {
+      "name": "30-day ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-03-10",
+    "long_prompt": "I am 40 years old and live in Trondheim. I take the bus to work every weekday within 1 zone. Right now, I need a ticket that fits my current commute, although my situation might change later this year.",
+    "long_prompt_no": "Jeg er 40 år gammel og bor i Trondheim. Jeg tar bussen til jobb hver ukedag innenfor 1 sone. Akkurat nå trenger jeg en billett som passer til den pendlingen jeg har nå, selv om situasjonen kan endre seg senere i år."
+  },
+  {
+    "persona_id": "daughter_social_events",
+    "expected_ticket": {
+      "name": "30-day ticket",
+      "category": "child",
+      "number_of_zones": 1
+    },
+    "date": "2025-03-11",
+    "long_prompt": "My daughter is 13 years old, and will need to take the bus to and from social events and soccer practice for the coming month. I'm guessing she will attend something between 2 and 3 times a week, but it might be more. What ticket should i buy her?",
+    "long_prompt_no": "Datteren min er 13 år gammel og kommer til å ta bussen til og fra sosiale arrangementer og fotballtrening i løpet av den kommende måneden. Jeg antar at hun kommer til å reise mellom 2 og 3 ganger i uken, men det kan bli mer. Hvilken billett bør jeg kjøpe til henne?"
+  },
+  {
+    "persona_id": "youth_student",
+    "expected_ticket": {
+      "name": "180-day ticket",
+      "category": "child",
+      "number_of_zones": 1
+    },
+    "date": "2025-08-05",
+    "long_prompt": "I am 18 years old and I’m starting as a student in Trondheim tomorrow. I live about 30 minutes from campus by foot so I’m planning to take the bus to lectures. It looks like I have classes 4 days a week. I live in the same zone as campus. In the first couple of weeks we have something called 'Fadderuke' so I expect to use the bus quite a lot to get around, maybe even after midnight. What kind of ticket should I get?",
+    "long_prompt_no": "Jeg er 18 år gammel og skal begynne som student i Trondheim i morgen. Jeg bor omtrent 30 minutter unna campus til fots så jeg tenker å ta bussen til forelesninger. Det ser ut som jeg har forelesninger 4 dager i uken. Jeg bor i samme sone som campus. De første ukene har vi noe som heter 'Fadderuke' så jeg forventer å bruke bussen en del, kanskje også etter midnatt. Hvilken billett bør jeg velge?",
+    "purchase_history": []
+  },
+  {
+    "persona_id": "highschool_student",
+    "expected_ticket": {
+      "name": "Youth ticket",
+      "category": "youth",
+      "number_of_zones": null
+    },
+    "date": "2025-05-10",
+    "long_prompt": "I am a 17-year-old student in Trondheim. I take the bus to school daily and also travel around the county to see friends on weekends. I travel within 4 zones. What’s the best ticket?",
+    "long_prompt_no": "Jeg er en 17 år gammel elev i Trondheim. Jeg tar bussen til skolen daglig og reiser også rundt i fylket for å besøke venner i helgene. Jeg reiser innenfor 4 soner. Hva er den beste billetten?"
+  },
+  {
+    "persona_id": "youth_commuter",
+    "expected_ticket": {
+      "name": "Youth ticket",
+      "category": "youth",
+      "number_of_zones": null
+    },
+    "date": "2025-02-10",
+    "long_prompt": "I am 18 years old and study in Trondheim. I also visit friends on weekends, and use the bus to get there. I travel within 3 zones. What ticket should I get?",
+    "long_prompt_no": "Jeg er 18 år gammel og studerer i Trondheim. Jeg besøker også venner i helgene og bruker bussen for å komme dit. Jeg reiser innenfor 3 soner. Hvilken billett bør jeg kjøpe?"
+  },
+  {
+    "persona_id": "temporary_worker",
+    "expected_ticket": {
+      "name": "60-day ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-05-10",
+    "long_prompt": "I am 41 years old and is in Trondheim for a two-month work assignment. I need a ticket that allows me to travel freely in the city during my stay. I travel within 1 zone.",
+    "long_prompt_no": "Jeg er 41 år gammel og er i Trondheim for et to-måneders arbeidsoppdrag. Jeg trenger en billett som lar meg reise fritt i byen under oppholdet. Jeg reiser innenfor 1 sone."
+  },
+  {
+    "persona_id": "internship_student",
+    "expected_ticket": {
+      "name": "60-day ticket",
+      "category": "student",
+      "number_of_zones": 1
+    },
+    "date": "2025-06-02",
+    "long_prompt": "I am a 22-year-old student doing an internship in Trondheim for two months. I travel daily to my workplace and sometimes explore the city in my free time. I travel within 1 zone. What ticket should I get?",
+    "long_prompt_no": "Jeg er en 22 år gammel student som har praksis i Trondheim i to måneder. Jeg reiser daglig til arbeidsplassen min og utforsker noen ganger byen på fritiden. Jeg reiser innenfor 1 sone. Hvilken billett bør jeg kjøpe?"
+  },
+  {
+    "persona_id": "seasonal_worker",
+    "expected_ticket": {
+      "name": "90-day ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-08-10",
+    "long_prompt": "I am 33 years old and work in Trondheim on a seasonal contract for three months. I need a ticket that covers all my commuting and occasional weekend travel within the city. I travel within 1 zone.",
+    "long_prompt_no": "Jeg er 33 år gammel og jobber i Trondheim på en sesongkontrakt i tre måneder. Jeg trenger en billett som dekker all pendling og sporadiske helgereiser i byen. Jeg reiser innenfor 1 sone."
+  },
+  {
+    "persona_id": "long_term_guest",
+    "expected_ticket": {
+      "name": "90-day ticket",
+      "category": "senior",
+      "number_of_zones": 1
+    },
+    "date": "2025-05-10",
+    "long_prompt": "I am 68 years old and visiting my daughter in Trondheim for three months. I take the bus almost daily to get around the city and visit different places. I travel within 1 zone. What ticket should I buy?",
+    "long_prompt_no": "Jeg er 68 år gammel og besøker datteren min i Trondheim i tre måneder. Jeg tar bussen nesten daglig for å komme meg rundt i byen og besøke forskjellige steder. Jeg reiser innenfor 1 sone. Hvilken billett bør jeg kjøpe?"
+  },
+  {
+    "persona_id": "commuter_christmas_vacation",
+    "expected_ticket": {
+      "name": "180-day ticket",
+      "category": "adult",
+      "number_of_zones": 2
+    },
+    "date": "2024-09-21",
+    "long_prompt": "I am 35 years old and commute every weekday for work. I travel within 2 zones. I am going away for a week long vacation around Christmas. What ticket should I get?",
+    "long_prompt_no": "Jeg er 35 år gammel og pendler hver ukedag for jobb. Jeg reiser innenfor 2 soner. Jeg skal på en ukes lang ferie rundt juletider. Hvilken billett bør jeg kjøpe?"
+  },
+  {
+    "persona_id": "long_term_worker",
+    "expected_ticket": {
+      "name": "180-day ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-02-10",
+    "long_prompt": "I am 50 years old and have a six-month work project in Trondheim. I commute daily to my office and need a ticket that covers all my travel within the city. I travel within 1 zone. What should I buy?",
+    "long_prompt_no": "Jeg er 50 år gammel og har et seks måneders arbeidsprosjekt i Trondheim. Jeg pendler daglig til kontoret mitt og trenger en billett som dekker all reise i byen. Jeg reiser innenfor 1 sone. Hva bør jeg kjøpe?"
+  },
+  {
+    "persona_id": "foreign_student",
+    "expected_ticket": {
+      "name": "180-day ticket",
+      "category": "student",
+      "number_of_zones": 1
+    },
+    "date": "2025-01-10",
+    "long_prompt": "I am a 24-year-old exchange student staying in Trondheim for six months. I take the bus to university every day and also use public transport for social activities. I travel within 1 zone. What’s the best ticket?",
+    "long_prompt_no": "Jeg er en 24 år gammel utvekslingsstudent som skal være i Trondheim i seks måneder. Jeg tar bussen til universitetet hver dag og bruker også offentlig transport til sosiale aktiviteter. Jeg reiser innenfor 1 sone. Hva er den beste billetten?"
+  },
+  {
+    "persona_id": "city_commuter_longterm",
+    "expected_ticket": {
+      "name": "180-day ticket",
+      "category": "adult",
+      "number_of_zones": 1
+    },
+    "date": "2025-01-10",
+    "long_prompt": "I am a 32-year-old who lives in the city and takes the bus to work every weekday. I also use the bus for shopping and errands a few times a week. I always travel within 1 zone. What’s the best ticket?",
+    "long_prompt_no": "Jeg er en 32 år gammel som bor i byen og tar bussen til jobb hver ukedag. Jeg bruker også bussen til shopping og ærender noen ganger i uken. Jeg reiser alltid innenfor 1 sone. Hva er den beste billetten?"
+  },
+  {
+    "persona_id": "night_worker",
+    "expected_ticket": {
+      "name": "Night 1",
+      "category": "adult",
+      "number_of_zones": null
+    },
+    "date": "2025-05-10",
+    "long_prompt": "I am 31 years old and work at a nightclub in Trondheim. I don’t use the bus during the day as I am driven to work by a friend. I need a ticket for the night bus to get home. I travel within 1 zone. What’s the best ticket?",
+    "long_prompt_no": "Jeg er 31 år gammel og jobber på en nattklubb i Trondheim. Jeg bruker ikke bussen på dagtid da jeg blir kjørt til jobb av en venn. Jeg trenger en billett for nattbussen for å komme meg hjem. Jeg reiser innenfor 1 sone. Hva er den beste billetten?"
+  },
+  {
+    "persona_id": "partygoer",
+    "expected_ticket": {
+      "name": "Night 1",
+      "category": "adult",
+      "number_of_zones": null
+    },
+    "date": "2025-05-10",
+    "long_prompt": "I am 25 years old and like going out on weekends. I usually take the night bus home after parties. I don’t use the bus often during the day. I travel within 1 zone. What’s the best ticket?",
+    "long_prompt_no": "Jeg er 25 år gammel og liker å gå ut i helgene. Jeg tar vanligvis nattbussen hjem etter fester. Jeg bruker ikke bussen ofte på dagtid. Jeg reiser innenfor 1 sone. Hva er den beste billetten?"
+  },
+  {
+    "persona_id": "parent_for_child",
+    "expected_ticket": {
+      "name": "Carnet bus",
+      "category": "child",
+      "number_of_zones": 1
+    },
+    "date": "2025-05-10",
+    "long_prompt": "My child, who is 10 years old, occasionally needs to take the bus to visit friends or attend activities. He doesn’t travel often, but I want to ensure he always has tickets available for such trips. What’s the best option?",
+    "long_prompt_no": "Mitt barn, som er 10 år gammelt, trenger av og til å ta bussen for å besøke venner eller delta på aktiviteter. Han reiser ikke ofte, men jeg vil sørge for at han alltid har billetter tilgjengelig til slike turer. Hva er det beste alternativet?"
+  }
+]
